@@ -63,7 +63,9 @@ namespace RODhealer
                     {
                         List<int> buffs = new List<int>(player.TPlayer.buffType);
                         if (buffs.Contains(88))
+                        {
                             player.Heal(player.FirstMaxHP / 6);
+                        }
                     }
                 }
             }
