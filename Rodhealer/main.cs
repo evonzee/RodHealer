@@ -59,7 +59,7 @@ namespace RODhealer
                 TSPlayer player = TShock.Players[e.Msg.whoAmI];
                 if (player != null)
                 {
-                    if (player.Group.HasPermission("tshock.tp.rod.nodamage"))
+                    if (player.Group.HasPermission("rodhealer.ignoredamage"))
                     {
                         List<int> buffs = new List<int>(player.TPlayer.buffType);
                         if (buffs.Contains(88))
