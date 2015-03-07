@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace RODhealer
 {
-    [ApiVersion(1, 16)]
+    [ApiVersion(1, 17)]
     public class Rodhealer : TerrariaPlugin
     {
         public override Version Version
