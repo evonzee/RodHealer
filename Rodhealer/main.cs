@@ -1,9 +1,9 @@
 ﻿using System;
 using Terraria;
-using TShockAPI;
 using TerrariaApi.Server;
 using System.Reflection;
 using System.Collections.Generic;
+using TShockAPI;
 
 namespace RODhealer
 {
