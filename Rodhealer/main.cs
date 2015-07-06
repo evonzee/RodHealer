@@ -7,7 +7,7 @@ using TShockAPI;
 
 namespace RODhealer
 {
-    [ApiVersion(1, 17)]
+    [ApiVersion(1, 18)]
     public class Rodhealer : TerrariaPlugin
     {
         public override Version Version
@@ -64,7 +64,7 @@ namespace RODhealer
                         List<int> buffs = new List<int>(player.TPlayer.buffType);
                         if (buffs.Contains(88))
                         {
-                            player.Heal(player.TPlayer.statLifeMax2 / 6);
+                            player.Heal(player.TPlayer.statLifeMax2 / 7);
                         }
                     }
                 }
